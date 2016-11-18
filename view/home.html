@@ -1,0 +1,324 @@
+
+<!-- banner区 -->
+<div class="banner">
+    <div class="banner-img">
+        <img class="fimg" src="../images/banner1.jpg" alt="">
+        <img src="../images/banner2.jpg" alt="">
+        <img src="../images/banner3.jpg" alt="">
+        <img src="../images/banner4.jpg" alt="">
+        <img src="../images/banner5.jpg" alt="">
+    </div>
+    <ul class="banner-icon clear">
+        ##for(i=0;i
+        < 5;i++){## <li>
+            </li>
+            ##}##
+    </ul>
+    <div class="sideBar">
+        <ul class="ul-show">
+            ##for(i=0;i
+            < 4;i++){## <li>
+                <p class="col-title">{{data.side.name[i]}}</p>
+                <p class="col-name">
+                    <a href="#">呗上草原</a>
+                    <a href="#">葫芦岛</a>
+                    <a href="#">乌兰布统(草原)</a>
+                </p>
+                </li>
+                ##}##
+        </ul>
+        <ul class="ul-hide">
+            <li class="ground">
+                <h4 class="hide-title">周边活动</h4>
+                <div class="hide-name">
+                    ##for(i=0;i
+                    < 8;i++){## <a href="#">{{data.arry1[i]}}</a>
+                        ##}##
+                </div>
+                <h4 class="hide-title">热门活动</h4>
+                <div class="hide-img">
+                    ##for(i=0;i
+                    < 3;i++){## <a href="#"><img src="{{data.arry2[i].img}}" alt="">
+                        <span class="hot">{{data.arry2[i].hot}}</span></a>
+                        ##}##
+                </div>
+            </li>
+            <li class="country">
+                <dl>
+                    <dt>云南</dt>
+                    <dd>
+                        <a href="#">昆明</a>
+                        <a href="#">西双版纳</a>
+                        <a href="#">香格里拉</a>
+                        <a href="#">腾冲</a>
+                        <a href="#">普者黑</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>西藏</dt>
+                    <dd>
+                        <a href="#">拉萨</a>
+                        <a href="#">布达拉宫</a>
+                        <a href="#">林芝</a>
+                        <a href="#">羊卓雍湖</a>
+                        <a href="#">纳木错</a>
+                        <a href="#">珠峰大本营</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>内蒙古</dt>
+                    <dd>
+                        <a href="#">呼伦贝尔</a>
+                        <a href="#">呼和浩特</a>
+                        <a href="#">锡林浩特</a>
+                        <a href="#">乌海</a>
+                        <a href="#">包头</a>
+                        <a href="#">鄂尔多斯</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>甘青宁</dt>
+                    <dd>
+                        <a href="#">银川</a>
+                        <a href="#">青海湖</a>
+                        <a href="#">嘉峪关</a>
+                        <a href="#">年宝玉则</a>
+                        <a href="#">兰州</a>
+                        <a href="#">西宁</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>新疆</dt>
+                    <dd>
+                        <a href="#">布尔津</a>
+                        <a href="#">库尔勒</a>
+                    </dd>
+                </dl>
+            </li>
+            <li class="home-out">
+                <dl>
+                    <dt>东南亚</dt>
+                    <dd>
+                        <a href="#">巴厘岛</a>
+                        <a href="#">柬埔寨</a>
+                        <a href="#">马来西亚</a>
+                        <a href="#">越南</a>
+                        <a href="#">印尼</a>
+                        <a href="#">诗巴丹</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>南亚</dt>
+                    <dd>
+                        <a href="#">不丹</a>
+                        <a href="#">尼泊尔</a>
+                        <a href="#">斯里兰卡</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>澳洲</dt>
+                    <dd><a href="#">墨尔本</a></dd>
+                </dl>
+                <dl>
+                    <dt>热门活动</dt>
+                    <dd class="hot-active">
+                        <div class="hide-img">
+                            ##for(i=0;i
+                            < 3;i++){## <a href="#"><img src="{{data.arry2[i].img}}" alt="">
+                                <span class="hot">{{data.arry2[i].hot}}</span></a>
+                                ##}##
+                        </div>
+                    </dd>
+                </dl>
+            </li>
+            <li class="home-in">
+                ##for(i=0;i
+                < 12;i++){## <a href=""><img src="{{data.myside[i]}}" alt=""></a>
+                    ##}##
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <!-- 主题的第一部分 -->
+    <div class="main-1">
+        <div class="top">
+            <h3 class="title">
+	    	   <span class="line-1"></span>
+	    	   <sapn class="text">心之所向 身之所往</sapn>
+	    	   <span class="line-2"></span>
+	    	</h3>
+            <p class="introduce">用旅行的感动铺满整个季节</p>
+        </div>
+        <div class="picture">
+            <ul class="clear">
+                ##for(i=0;i
+                < 8;i++){## <li>
+                    <a href="#">
+                        <img class="img1" src="{{data.picture[i]}}" alt="">
+                        <img class="pic-icon" src="{{data.icon[i]}}" alt="">
+                    </a>
+                    </li>
+                    ##}##
+            </ul>
+        </div>
+    </div>
+
+    <!-- 主题的第二部分 -->
+    <div class="main-2">
+        <div class="top">
+            <h3 class="title">
+	    	   <span class="line-1"></span>
+	    	   <sapn class="text">周末好去处</sapn>
+	    	   <span class="line-2"></span>
+	    	</h3>
+            <p class="introduce">若生命只有两天，第一天享受快乐，第二天留住感动</p>
+        </div>
+        <ul class="clear">
+            ##for(i=0;i
+            < 8;i++){## <li class="item clear">
+                <div class="item-img">
+                    <img src="{{data.main2.img[i]}}" alt="">
+                </div>
+                <div class="item-text">
+                    <div class="top"><a href="#">{{data.main2.title[i]}}</a></div>
+                    <div class="middle">
+                        <span>
+	    				<i class="middle-icon1"></i>11月/05</span>
+                        <span>
+	    				<i class="middle-icon2"></i>G6百葛服../集合</span>
+                    </div>
+                    <div class="bottom">
+                        <span class="strength">
+	    				<em>强度:</em>
+	    				##for(j=0;j< 5;j++){##
+                        <i class="on"></i>
+                        ##}##
+                        </span>
+                        <span class="money">￥<i>{{data.main2.money[i]}}</i> 起</span>
+                    </div>
+                </div>
+                </li>
+                ##}##
+                <li class="more">
+                    <a href="#">查看更多周末线路产品
+	    		 <span></span></a>
+                </li>
+        </ul>
+    </div>
+
+    <!-- 主题的第三部分 -->
+    <div class="main-3">
+        <div class="top">
+            <h3 class="title">
+	    	   <span class="line-1"></span>
+	    	   <sapn class="text">轻户外国内游</sapn>
+	    	   <span class="line-2"></span>
+	    	</h3>
+            <p class="introduce">东西南北，春夏秋冬，中国之美，三言两语道不尽</p>
+        </div>
+        <ul class="clear slip">
+            ##for(i=0;i
+            < 6;i++){## <li class="item">
+                <div class="item-img">
+                    <span class="abs-icon">{{data.main3[i].method}}</span>
+                    <a href="#"><img src="{{data.main3[i].img}}" alt=""   title="<h2 style='color:yellow;font-size:20px'>{{data.main3[i].font}}</h2>"></a>
+                </div>
+                <div class="item-text">
+                    <div class="name clear">
+                        <a href="#">{{data.main3[i].text}}</a>
+                        <p><img src="{{data.main3[i].pic}}" alt=""> {{data.main3[i].name}}
+                        </p>
+                    </div>
+                    <div class="time">
+                        <span class="map">
+	    				<i class="middle-icon1"></i>11月/05</span>
+                        <span class="map">
+	    				<i class="middle-icon2"></i>G6百葛服../集合</span>
+                        <span class="money">￥<i>{{data.main3[i].money}}</i> 起</span>
+                    </div>
+                    <div class="apply clear">
+                        <span class="img">
+	    				<img src="../images/photo1.png" alt="">
+	    				<img src="../images/photo2.png" alt="">
+	    				<img src="../images/photo3.png" alt="">
+	    				<img src="../images/photo4.png" alt="">
+	    				<img src="../images/photo5.png" alt="">
+	    				</span>
+                        <span class="apply-text">报名中</span>
+                    </div>
+                </div>
+                </li>
+                ## }##
+        </ul>
+    </div>
+    <!-- 主题的第4部分 -->
+    <div class="main-4">
+        <div class="top">
+            <h3 class="title">
+	    	   <span class="line-1"></span>
+	    	   <sapn class="text">热门主题游</sapn>
+	    	   <span class="line-2"></span>
+	    	</h3>
+            <p class="introduce">爱到死，玩到疯，你的旅行，不只冰山一角</p>
+        </div>
+        <ul class="clear">
+            ##for(i=0;i
+            < 4;i++){## <li class="main4-item">
+                <a href="#"><img src="{{data.main4[i].img}}" alt="">
+                    <span class="a-abs"></span>
+                    <span class="city-name">{{data.main4[i].name}}</span></a>
+                </li>
+                ##}##
+        </ul>
+        <a href="" class="ad-img"><img src="../images/pic4-5.jpg" alt=""></a>
+    </div>
+    <!-- 主题第5部分-->
+    <div class="main-5">
+        <div class="top">
+            <h3 class="title">
+	    	   <span class="line-1"></span>
+	    	   <sapn class="text">一起出发吧</sapn>
+	    	   <span class="line-2"></span>
+	    	</h3>
+            <p class="introduce">几张旧纸，笔尖轻触，如花开一瞬，却映半生繁华。</p>
+        </div>
+        <ul class="clear">
+            ##for(i=0;i
+            < 4;i++){## <li class="item">
+                <div class="item-block">
+                    <a href="#" class="pic5">
+                        <img class="pic5-img" src="{{data.main5[i].img}}" alt="">
+                        <span class="pic5-icon" style="background-color: {{data.main5[i].color}}">{{data.main5[i].icon}}</span>
+                        <div class="pic5-text">
+                            <img src="../images/article-icon1.png" alt="">
+                            <h3> {{data.main5[i].name}}</h3>
+                            <p class="clear">
+                                <span class="look">浏览：{{data.main5[i].look}}</span>
+                                <span class="man">Michael 绿野</span>
+                            </p>
+                        </div>
+                    </a>
+                    <!-- <div class="block-abs"></div> -->
+                </div>
+                <div class="item-none">
+                    <h3 class="title">{{data.main5[i].name}}</h3>
+                    <p class="small clear">
+                        <span class="look">浏览：{{data.main5[i].look}}</span>
+                        <span class="man">Michael 绿野</span>
+                    </p>
+                    <p class="text">　　 有这么个地方，坐落在美丽的草原天路深处，可以扎营赏月看星空，整个银河系都能尽揽双眼;饿了，有各种西餐烤肉等美食可供您选择;倦了，有酒店式营地帐篷可供您休息;或者可以来一杯香茗，听一首音乐，让疲惫了一周工作的身心在这里没有任何负担的释放。
+                    </p>
+                    <div class="bottom clear">
+                        <a href="#" class="first"></a>
+                        <a href="#" class="qq"></a>
+                        <a href="#" class="weixin"></a>
+                        <a href="#" class="xinlang"></a>
+                        <a href="#" class="more">更多>></a>
+                    </div>
+                </div>
+                </li>
+                ##}##
+        </ul>
+    </div>
+</div>

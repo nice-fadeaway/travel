@@ -1,0 +1,218 @@
+header {
+  width: 100%;
+}
+header .header-inner {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 23px;
+}
+header .header-inner .logo {
+  float: left;
+}
+header .header-inner .search {
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  margin-left: 56px;
+}
+header .header-inner .search input {
+  width: 352px;
+  height: 42px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid #dcdcdc;
+}
+header .header-inner .search .search-icon {
+  border: 1px solid #dcdcdc;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+  border-left: none;
+  overflow: hidden;
+}
+header .header-inner .search .search-icon .my-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/top-icon.png) 0 -73px no-repeat;
+  margin-top: 10px;
+}
+header .city {
+  float: left;
+  margin-left: 40px;
+  border: 1px solid #fff;
+  position: relative;
+  min-width: 150px;
+  border-bottom: 1px solid #e0e0e0;
+  height: 33px;
+  line-height: 33px;
+  padding-left: 15px;
+}
+header .city:hover .city-more {
+  display: block;
+}
+header .city:hover {
+  border: 1px solid #e0e0e0;
+}
+header .city .city-icon {
+  background: url(../images/top-icon.png) no-repeat;
+  width: 11px;
+  height: 16px;
+  background-position: 0 -20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+header .city .city-name {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 15px;
+  color: #333;
+}
+header .city .city-name .name-color {
+  font-size: 16px;
+  color: #3cb43c;
+}
+header .city .city-arrow {
+  height: 16px;
+  width: 40px;
+  line-height: 16px;
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+  margin-left: 15px;
+}
+header .city .city-arrow .arrow-down {
+  width: 11px;
+  height: 6px;
+  background-position: 0 -45px;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../images/top-icon.png) no-repeat;
+}
+header .city .city-more {
+  position: absolute;
+  border: 1px solid #dcdcdc;
+  border-top: none;
+  top: 33px;
+  width: 165px;
+  left: -1px;
+  background-color: #fff;
+  display: none;
+}
+header .city .city-more p {
+  height: 31px;
+  line-height: 31px;
+  padding-left: 45px;
+  font-size: 14px;
+  color: #333;
+}
+header .city .city-more p:hover {
+  background-color: #dcdcdc;
+}
+header .header-right {
+  padding-top: 10px;
+  float: right;
+}
+header .header-right span {
+  margin: 0 10px;
+}
+header .header-right a {
+  color: #333;
+}
+footer {
+  margin-top: 50px;
+  padding-bottom: 15px;
+  border-top: 2px solid #3cb43c;
+}
+footer .footer-top {
+  background-color: #fafafa;
+  padding: 25px 0;
+}
+footer .footer-top .top-inner {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 41px;
+  box-sizing: border-box;
+}
+footer .footer-top .top-inner dl {
+  float: left;
+  width: 162px;
+  margin: 0 55px;
+  position: relative;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+footer .footer-top .top-inner dl dt {
+  font-size: 18px;
+  height: 36px;
+  line-height: 36px;
+}
+footer .footer-top .top-inner dl dd {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+footer .footer-top .top-inner dl .foot-icon {
+  width: 36px;
+  height: 36px;
+  background: url(../images/foot-icon.png) no-repeat;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+footer .footer-top .top-inner .img {
+  padding-top: 10px;
+}
+footer .footer-top .top-inner .img .foot-icon {
+  width: 36px;
+  height: 36px;
+  background: url(../images/foot-icon.png) no-repeat 0 -124px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+footer .footer-bottom .bottom-inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+footer .footer-bottom .copyright {
+  font-size: 12px;
+  color: #333;
+  margin: 15px 0 10px;
+}
+footer .footer-bottom .copyright span {
+  margin-right: 20px;
+}
+footer .footer-bottom .more a {
+  font-size: 12px;
+  color: #666;
+  line-height: 14px;
+}
+.nav {
+  margin-top: 20px;
+  background-color: #3cb43c;
+  height: 40px;
+}
+.nav .nav-inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+.nav .nav-inner a {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 18px;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 0;
+}
+.nav .nav-inner a:first-child {
+  background-color: #319630;
+}
+.nav .nav-inner a:hover {
+  background-color: #319630;
+}

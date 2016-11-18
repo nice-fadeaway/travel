@@ -1,0 +1,122 @@
+<div class="skiing-inner">
+    <div class="classify clear">
+        <span>所有分类 ： </span>
+        <a href="#" class="snow">滑雪
+        <i></i></a>
+        <a href="#" class="clearAll"><i></i>全部清空</a>
+    </div>
+    <div class="head">
+        <ul class="head-nav clear">
+            <li>周边游</li>
+            <li>国内游</li>
+            <li>出境游</li>
+        </ul>
+        <div class="head-content">
+            ##for(i=0;i
+            < data.skiing.length;i++){## <dl class="item clear">
+                <dt>{{data.skiing[i].name}}</dt>
+                <dd>
+                    ##for(j=0;j
+                    < data.skiing[i].place.length;j++){## <a href="#">{{data.skiing[i].place[j]}}</a>
+                        ##}##
+                </dd>
+                </dl>
+                ##}##
+                <div class="more">
+                    <a href="#">
+                        <i></i>
+                        <span>更多筛选项（出游时间/行程天数）</span>
+                </div>
+                </a>
+        </div>
+    </div>
+    <div class="main clear">
+        <!-- 左边区域 -->
+        <div class="main-left">
+            <div class="main-nav">
+                <ul class="clear">
+                    <li>小野推荐</li>
+                    <li>价格由低到高</li>
+                    <li>价格由高到底</li>
+                </ul>
+            </div>
+            ##for(i=0;i< 7;i++){##
+            <div class="main-item clear">
+            	<div class="img">
+            		<i>滑雪</i>
+            		<a href="#"><img src="{{data.skiingList[i].img}}" alt=""></a>
+            	</div>
+            	<div class="text">
+            		<h3><a href="">{{data.skiingList[i].name}}</a></h3>
+                    <div class="clear">
+                        <div class="text-left">
+                            <ul>
+                                <li>
+                                    <i></i>
+                                    <span>{{data.skiingList[i].text1}}</span>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <span>{{data.skiingList[i].text2}}</span>
+                                </li>
+                                <li>
+                                    <i></i>
+                                    <span>{{data.skiingList[i].text3}}</span>
+                                </li>
+                            </ul>
+                            <div class="text-bottom">
+                                <p class="p-1">
+                                <span class="span-box">
+                                    <i class="icon-place"></i>
+                                    <span>北京/出发</span>
+                                </span>
+                                <span class="span-box">
+                                    <i class="icon-car"></i>
+                                    <sapn>大巴</sapn>
+                                </span>
+                                <span class="span-box strength">
+                                    <span>强度：</span>
+                                    ##for(j=0;j< 5;j++){##
+                                    <i class="{{data.skiingList[i].strength[j]}}"></i>
+                                   ## }##
+                                </span> 
+                                </p>
+                                <p class="p-2">
+                                    <span class="day"></span>
+                                    <span>11/12,11/13</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <div class="days-price clear">
+                                <span>3日</span>
+                                <span class="price">{{data.skiingList[i].price}}</span>
+                            </div>
+                            <div class="btn">
+                                <a href="#">马上报名</a>
+                            </div>
+                            <div class="total clear">
+                                <p> <i class="hearts"></i>
+                                    <span>0</span>
+                                </p>
+                                 <p> <i class="eyes"></i>
+                                    <span>{{data.skiingList[i].eyes}}</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div >
+            	</div>
+            </div>
+            ##}##
+        </div>
+        <!-- 右边区域 -->
+        <div class="main-right">
+            <div class="right1">
+                <img src="../images/main-right1.jpg" alt="">
+            </div>
+            <div class="right2">
+                 <img src="../images/main-right2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>

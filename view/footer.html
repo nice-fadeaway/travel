@@ -1,0 +1,41 @@
+
+
+<!-- footer第一部分 -->
+<div class="footer-top">
+	<div class="top-inner clear">
+	##for(i=0;i< 3;i++){##
+		<dl>
+			<dt>{{data.footer[i]}}</dt>
+			##for(j=0;j< 5;j++){##
+			<dd>绿野简介</dd>
+			##}##
+			<span class="foot-icon">
+			</span>
+		</dl>
+	##}##
+	   <dl class="img">
+	   	<img src="../images/foot-img.jpg" alt="">
+	   	<span class="foot-icon"></span>
+	   </dl>
+	</div>
+</div>
+
+
+<!-- footer第二部分 -->
+<div class="footer-bottom">
+<div class="bottom-inner">
+	<p class="copyright">
+	  <span>北京绿野视界信息技术有限公司</span>	
+	  <span>Copyright 1999-2016 www.lvye.cn</span>	
+	  <span>绿野户外网版权所有</span>	
+	  <span>京ICP证12009911号-1</span>	
+	  <span>　京公网安备11010502025656</span>	
+	  <span>电信业务审批[2003]字第361号</span>	
+	</p>
+	<p class="more">
+	##for(i=0;i< 50;i++){##
+		<a href="#">{{data.more[i]}}</a>
+	##}##
+	</p>
+</div>
+</div>
